@@ -139,23 +139,22 @@
                                     </div>
                                 </div>
 
-                                <!-- Step 2: Project Type -->
+                                <!-- Step 2: Timeline -->
                                 <div class="form-step" id="step2">
-                                    <h2 class="step-title">What type of project are you looking for?</h2>
-                                    <div class="option-grid">
-                                        <div class="option-card" onclick="selectOption('projectType', 'complete')">
-                                            <div class="option-icon">
-                                                <img src="https://homezies.com/wp-content/uploads/2025/11/Complete_Remodel-removebg-preview.png" alt="Complete Remodel">
-                                            </div>
-                                            <div class="option-label">Complete Remodel</div>
-                                            <input type="radio" name="projectType" value="complete" id="projectType-complete" required>
+                                    <h2 class="step-title">When would you like to start this project?</h2>
+                                    <p class="step-subtitle">Choose the timeline for this project.</p>
+                                    <div class="option-list option-list-compact">
+                                        <div class="option-item option-item-compact" onclick="selectOption('timeline', 'immediately')">
+                                            <div class="option-label">Immediately</div>
+                                            <input type="radio" name="timeline" value="immediately" id="timeline-immediately" required>
                                         </div>
-                                        <div class="option-card" onclick="selectOption('projectType', 'partial')">
-                                            <div class="option-icon">
-                                                <img src="https://homezies.com/wp-content/uploads/2025/11/Partial_Remodel-removebg-preview.png" alt="Partial Remodel">
-                                            </div>
-                                            <div class="option-label">Partial Remodel</div>
-                                            <input type="radio" name="projectType" value="partial" id="projectType-partial" required>
+                                        <div class="option-item option-item-compact" onclick="selectOption('timeline', '1month')">
+                                            <div class="option-label">Within 1 month</div>
+                                            <input type="radio" name="timeline" value="1month" id="timeline-1month" required>
+                                        </div>
+                                        <div class="option-item option-item-compact" onclick="selectOption('timeline', '1-3months')">
+                                            <div class="option-label">1-3 months</div>
+                                            <input type="radio" name="timeline" value="1-3months" id="timeline-1-3months" required>
                                         </div>
                                     </div>
                                     <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
@@ -165,30 +164,23 @@
                                     </div>
                                 </div>
 
-                                <!-- Step 3: Area Selection -->
+                                <!-- Step 3: Gutter Service Type -->
                                 <div class="form-step" id="step3">
-                                    <h2 class="step-title">What area are you remodeling?</h2>
+                                    <h2 class="step-title">What type of Gutter service are you looking for?</h2>
                                     <div class="option-grid">
-                                        <div class="option-card" onclick="selectOption('area', 'bathtub-shower')">
+                                        <div class="option-card" onclick="selectOption('projectType', 'newInstall')">
                                             <div class="option-icon">
-                                                <img src="https://homezies.com/wp-content/uploads/2025/11/Bathtub_to_Shower-removebg-preview.png" alt="Bathtub to Shower">
+                                                <img src="https://homezies.com/wp-content/uploads/2025/11/New-Install.png" alt="New Install">
                                             </div>
-                                            <div class="option-label">Bathtub to Shower</div>
-                                            <input type="radio" name="area" value="bathtub-shower" id="area-bathtub-shower" required>
+                                            <div class="option-label">New Install</div>
+                                            <input type="radio" name="projectType" value="newInstall" id="projectType-newInstall" required>
                                         </div>
-                                        <div class="option-card" onclick="selectOption('area', 'shower-upgrade')">
+                                        <div class="option-card" onclick="selectOption('projectType', 'gutterGuards')">
                                             <div class="option-icon">
-                                                <img src="https://homezies.com/wp-content/uploads/2025/11/Shower_Install_Upgrade-removebg-preview.png" alt="Shower Install/Upgrade">
+                                                <img src="https://homezies.com/wp-content/uploads/2025/11/Gutter-Guards.png" alt="Gutter Guards">
                                             </div>
-                                            <div class="option-label">Shower Install/Upgrade</div>
-                                            <input type="radio" name="area" value="shower-upgrade" id="area-shower-upgrade" required>
-                                        </div>
-                                        <div class="option-card" onclick="selectOption('area', 'bathtub-liner')">
-                                            <div class="option-icon">
-                                                <img src="https://homezies.com/wp-content/uploads/2025/11/Bathtub_Liner_Upgrade-removebg-preview.png" alt="Bathtub Liner/Upgrade">
-                                            </div>
-                                            <div class="option-label">Bathtub Liner/Upgrade</div>
-                                            <input type="radio" name="area" value="bathtub-liner" id="area-bathtub-liner" required>
+                                            <div class="option-label">Gutter Guards</div>
+                                            <input type="radio" name="projectType" value="gutterGuards" id="projectType-gutterGuards" required>
                                         </div>
                                     </div>
                                     <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
@@ -198,33 +190,8 @@
                                     </div>
                                 </div>
 
-                                <!-- Step 4: Timeline -->
+                                <!-- Step 4: Homeowner -->
                                 <div class="form-step" id="step4">
-                                    <h2 class="step-title">How soon would you like to start this project?</h2>
-                                    <p class="step-subtitle">Choose the timeline for this project.</p>
-                                    <div class="option-list">
-                                        <div class="option-item" onclick="selectOption('timeline', '1month')">
-                                            <div class="option-label">Within 1 month</div>
-                                            <input type="radio" name="timeline" value="1month" id="timeline-1month" required>
-                                        </div>
-                                        <div class="option-item" onclick="selectOption('timeline', '1-3months')">
-                                            <div class="option-label">1-3 months</div>
-                                            <input type="radio" name="timeline" value="1-3months" id="timeline-1-3months" required>
-                                        </div>
-                                        <div class="option-item" onclick="selectOption('timeline', '4-6months')">
-                                            <div class="option-label">4-6 months</div>
-                                            <input type="radio" name="timeline" value="4-6months" id="timeline-4-6months" required>
-                                        </div>
-                                    </div>
-                                    <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
-                                    <div class="step-navigation">
-                                        <button type="button" class="btn-secondary" onclick="prevStep(4)">Back</button>
-                                        <button type="button" class="btn-primary" onclick="nextStep(4)">Next</button>
-                                    </div>
-                                </div>
-
-                                <!-- Step 5: Homeowner -->
-                                <div class="form-step" id="step5">
                                     <h2 class="step-title">Are you a Homeowner?</h2>
                                     <p class="step-subtitle">Are you the owner or authorized to make changes to it.</p>
                                     <div class="option-grid">
@@ -245,13 +212,13 @@
                                     </div>
                                     <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
                                     <div class="step-navigation">
-                                        <button type="button" class="btn-secondary" onclick="prevStep(5)">Back</button>
-                                        <button type="button" class="btn-primary" onclick="nextStep(5)">Next</button>
+                                        <button type="button" class="btn-secondary" onclick="prevStep(4)">Back</button>
+                                        <button type="button" class="btn-primary" onclick="nextStep(4)">Next</button>
                                     </div>
                                 </div>
 
-                                <!-- Step 6: Location -->
-                                <div class="form-step" id="step6">
+                                <!-- Step 5: Location -->
+                                <div class="form-step" id="step5">
                                     <h2 class="step-title">Where will this project take place?</h2>
                                     <div class="form-group">
                                         <label for="city">City</label>
@@ -263,13 +230,13 @@
                                     </div>
                                     <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
                                     <div class="step-navigation">
-                                        <button type="button" class="btn-secondary" onclick="prevStep(6)">Back</button>
-                                        <button type="button" class="btn-primary" onclick="nextStep(6)">Next</button>
+                                        <button type="button" class="btn-secondary" onclick="prevStep(5)">Back</button>
+                                        <button type="button" class="btn-primary" onclick="nextStep(5)">Next</button>
                                     </div>
                                 </div>
 
-                                <!-- Step 7: Contact Name -->
-                                <div class="form-step" id="step7">
+                                <!-- Step 6: Contact Name -->
+                                <div class="form-step" id="step6">
                                     <h2 class="step-title">Who should we contact?</h2>
                                     <p class="step-subtitle">Enter your name or representative for this project.</p>
                                     <div class="form-group">
@@ -282,13 +249,13 @@
                                     </div>
                                     <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
                                     <div class="step-navigation">
-                                        <button type="button" class="btn-secondary" onclick="prevStep(7)">Back</button>
-                                        <button type="button" class="btn-primary" onclick="nextStep(7)">Next</button>
+                                        <button type="button" class="btn-secondary" onclick="prevStep(6)">Back</button>
+                                        <button type="button" class="btn-primary" onclick="nextStep(6)">Next</button>
                                     </div>
                                 </div>
 
-                                <!-- Step 8: Final Contact Info -->
-                                <div class="form-step" id="step8">
+                                <!-- Step 7: Final Contact Info -->
+                                <div class="form-step" id="step7">
                                     <h2 class="step-title">Almost Done!</h2>
                                     <div class="form-group">
                                         <label for="email">Email</label>
@@ -300,10 +267,10 @@
                                         <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" required>
                                         <span class="error-message" id="phoneError"></span>
                                     </div>
-                                    
+                                  
                                     <p class="form-note">By clicking "Get a free Quote" I agree to: (1) receive recurring automated marketing and non-marketing calls, texts, and prerecorded messages at any phone numbers I provide (consent not required to make a purchase, msg & data rates apply, reply STOP to opt-out of texts or HELP for help); and (2) the <a href="https://homezies.com/terms-of-use/" target="_blank" rel="noopener noreferrer">Terms of Use</a>, <a href="https://homezies.com/privacy-notice/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>, and <a href="https://homezies.com/e-sign-consent-disclosure/" target="_blank" rel="noopener noreferrer">California Privacy Notice</a>.</p>
                                     <div class="step-navigation">
-                                        <button type="button" class="btn-secondary" onclick="prevStep(8)">Back</button>
+                                        <button type="button" class="btn-secondary" onclick="prevStep(7)">Back</button>
                                         <button type="submit" class="btn-primary">Get a FREE Quote</button>
                                     </div>
                                 </div>
@@ -323,38 +290,38 @@
                         <div class="slider-track">
                             <div class="project-slide active">
                                 <div class="project-image">
-                                    <img src="https://homezies.com/wp-content/uploads/2025/05/3d-rendering-modern-design-marble-tile-toilet-bathroom_105762-2043.webp" alt="Modern Design Marble Tile Bathroom">
+                                    <img src="https://homezies.com/wp-content/uploads/2024/08/gutters-hero.jpg" alt="Professional Gutter Installation">
                                 </div>
                                 <div class="project-overlay">
-                                    <h3>Modern Marble Design</h3>
-                                    <p>Elegant marble tile bathroom with contemporary fixtures</p>
+                                    <h3>Professional Gutter Installation</h3>
+                                    <p>Expertly installed gutters protecting your home from water damage</p>
                                 </div>
                             </div>
                             <div class="project-slide">
                                 <div class="project-image">
-                                    <img src="https://homezies.com/wp-content/uploads/2025/05/3d-rendering-modern-black-bathroom-with-luxury-tile-decor_105762-2138-1.webp" alt="Modern Black Bathroom with Luxury Tile">
+                                    <img src="https://homezies.com/wp-content/uploads/2025/07/gutter-guard-ipswich-2434467_640.jpg" alt="Gutter Guard System">
                                 </div>
                                 <div class="project-overlay">
-                                    <h3>Luxury Black Design</h3>
-                                    <p>Sophisticated black bathroom with premium tile decor</p>
+                                    <h3>Gutter Guard System</h3>
+                                    <p>Advanced gutter protection with leaf guards and debris prevention</p>
                                 </div>
                             </div>
                             <div class="project-slide">
                                 <div class="project-image">
-                                    <img src="https://homezies.com/wp-content/uploads/2025/05/minimal-bathroom-interior-design-with-wooden-furniture_53876-129806-1.webp" alt="Minimal Bathroom with Wooden Furniture">
+                                    <img src="https://homezies.com/wp-content/uploads/2025/05/bird-7587232_1280.webp" alt="Protected Gutter System">
                                 </div>
                                 <div class="project-overlay">
-                                    <h3>Minimal Wood Design</h3>
-                                    <p>Clean minimal design with natural wooden accents</p>
+                                    <h3>Protected Gutter System</h3>
+                                    <p>Keep your gutters clean and free from debris with professional protection</p>
                                 </div>
                             </div>
                             <div class="project-slide">
                                 <div class="project-image">
-                                    <img src="https://homezies.com/wp-content/uploads/2025/05/modern-bathroom-with-smart-home-system-sleek-design_9975-33157.webp" alt="Modern Bathroom with Smart Home System">
+                                    <img src="https://homezies.com/wp-content/uploads/2025/07/bibleverse-images-8.webp" alt="Quality Gutter Solutions">
                                 </div>
                                 <div class="project-overlay">
-                                    <h3>Smart Home Bathroom</h3>
-                                    <p>Modern bathroom with integrated smart home technology</p>
+                                    <h3>Quality Gutter Solutions</h3>
+                                    <p>Durable gutters designed to protect your home for years to come</p>
                                 </div>
                             </div>
                         </div>
@@ -366,6 +333,63 @@
                         <span class="dot" onclick="currentSlide(2)"></span>
                         <span class="dot" onclick="currentSlide(3)"></span>
                         <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Gutter Types Section -->
+        <section id="popular-gutter-types" class="popular-window-styles">
+            <div class="container">
+                <h2 class="section-title">Popular Gutter Types</h2>
+                
+                <div class="window-styles-grid">
+                    <div class="window-style-item">
+                        <div class="window-style-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/11/Gut-Gallery-02.jpg" alt="Seamless Gutters">
+                        </div>
+                        <h3 class="window-style-name">Seamless Gutters</h3>
+                        <p class="window-style-description">Custom-fitted gutters that are cut to your home's exact measurements, providing superior water flow and minimal maintenance with no seams to leak.</p>
+                    </div>
+
+                    <div class="window-style-item">
+                        <div class="window-style-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/11/6763fe54e4e52ea1f4ee148f_67530d05c4d841d077fd566e_gutters.jpeg" alt="K-Style Gutters">
+                        </div>
+                        <h3 class="window-style-name">K-Style Gutters</h3>
+                        <p class="window-style-description">The most popular gutter style, featuring a decorative front that resembles crown molding. These gutters offer excellent water capacity and complement modern home designs.</p>
+                    </div>
+
+                    <div class="window-style-item">
+                        <div class="window-style-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/11/halfround-k-style-gutter-guards-removebg-preview.png" alt="Half-Round Gutters">
+                        </div>
+                        <h3 class="window-style-name">Half-Round Gutters</h3>
+                        <p class="window-style-description">Classic rounded gutters that provide a traditional aesthetic while effectively channeling water away from your home's foundation.</p>
+                    </div>
+
+                    <div class="window-style-item">
+                        <div class="window-style-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/11/gutter-guard-removebg-preview.png" alt="Gutter Guards">
+                        </div>
+                        <h3 class="window-style-name">Gutter Guards</h3>
+                        <p class="window-style-description">Protective systems that prevent leaves, debris, and pests from clogging your gutters, reducing maintenance and extending gutter lifespan.</p>
+                    </div>
+
+                    <div class="window-style-item">
+                        <div class="window-style-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/11/Gut-Gallery-02-removebg-preview.png" alt="Vinyl Gutters">
+                        </div>
+                        <h3 class="window-style-name">Vinyl Gutters</h3>
+                        <p class="window-style-description">Lightweight, rust-resistant, and cost-effective gutters that are easy to install and maintain, perfect for budget-conscious homeowners.</p>
+                    </div>
+
+                    <div class="window-style-item">
+                        <div class="window-style-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/11/360_F_1269605292_59gHB7zM4RZeaSER4gRXN0OlPhFapOxz-removebg-preview.png" alt="Copper Gutters">
+                        </div>
+                        <h3 class="window-style-name">Copper Gutters</h3>
+                        <p class="window-style-description">Premium gutters that develop a beautiful patina over time, offering exceptional durability and an elegant appearance for high-end homes.</p>
                     </div>
                 </div>
             </div>
@@ -531,69 +555,99 @@
                 
                 <div class="articles-grid">
                     <article class="article-card">
-                        <div class="article-category">Gutters, Home Exterior</div>
-                        <h3 class="article-title">7 Reasons to Invest in a Backsplash for Your Bathroom</h3>
-                        <div class="article-meta">
-                            <span class="article-date">November 18, 2025</span>
-                            <span class="article-author">Svetlana L.</span>
+                        <div class="article-image">
+                            <img src="https://homezies.com/wp-content/uploads/2024/08/gutters-hero.jpg" alt="Gutter Guards">
                         </div>
-                        <p class="article-excerpt">A bathroom backsplash may look like a small design feature, but it plays a huge role in protecting your bathroom wall, elevating your vanity area, and keeping your space looking clean and polished. Whether you're renovating your bathroom or simply…</p>
-                        <a href="#" class="article-link">Read more</a>
+                        <div class="article-content">
+                            <div class="article-category">Gutter Replacement Quote</div>
+                            <h3 class="article-title">A Complete Guide on How Gutter Guards Work—All You Need to Know About Gutter Protection</h3>
+                            <div class="article-meta">
+                                <span class="article-date">November 17, 2025</span>
+                                <span class="article-author">Svetlana L.</span>
+                            </div>
+                            <p class="article-excerpt">Do you ever find yourself cleaning out clogged gutters filled with leaves, twigs, and debris? You're not alone. Many homeowners assume gutter maintenance is an unavoidable part of homeownership—but the truth is, the right gutter guard system can eliminate this chore…</p>
+                            <a href="#" class="article-link">Read more</a>
+                        </div>
                     </article>
 
                     <article class="article-card">
-                        <div class="article-category">Gutters, Home Exterior</div>
-                        <h3 class="article-title">Sitcom Bathroom Remodel Fails That Prove You Should Never DIY Your Renovation</h3>
-                        <div class="article-meta">
-                            <span class="article-date">November 17, 2025</span>
-                            <span class="article-author">Svetlana L.</span>
+                        <div class="article-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/07/gutter-guard-ipswich-2434467_640.jpg" alt="Seamless Gutters">
                         </div>
-                        <p class="article-excerpt">Recently we rewatched an episode of Friends — the one where Joey wrecks Monica's bathroom floor. And while it had us laughing (for the 100x time!), we couldn't help but think about the valuable lessons these types of episodes teach…</p>
-                        <a href="#" class="article-link">Read more</a>
+                        <div class="article-content">
+                            <div class="article-category">Gutter Replacement Quote</div>
+                            <h3 class="article-title">Seamless Gutters vs Sectional Gutters</h3>
+                            <div class="article-meta">
+                                <span class="article-date">November 14, 2025</span>
+                                <span class="article-author">Svetlana L.</span>
+                            </div>
+                            <p class="article-excerpt">If you're researching ways to improve the water management and protection of your home, you've probably come across the debate of seamless gutters vs sectional gutters. Homeowners in areas with heavy rainfall—especially those along the East Coast, Texas, and Florida—often wonder…</p>
+                            <a href="#" class="article-link">Read more</a>
+                        </div>
                     </article>
 
                     <article class="article-card">
-                        <div class="article-category">Gutters, Home Exterior</div>
-                        <h3 class="article-title">Your Comprehensive Guide on Bathroom Remodeling Costs to Expect in 2026</h3>
-                        <div class="article-meta">
-                            <span class="article-date">November 14, 2025</span>
-                            <span class="article-author">Svetlana L.</span>
+                        <div class="article-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/05/bird-7587232_1280.webp" alt="Gutter Installation">
                         </div>
-                        <p class="article-excerpt">A bathroom remodel is one of the most rewarding home improvement projects you can take on. It elevates comfort, boosts your home value, and modernizes one of the most-used spaces in your home. But before you pick out tile or…</p>
-                        <a href="#" class="article-link">Read more</a>
+                        <div class="article-content">
+                            <div class="article-category">Gutter Replacement Quote</div>
+                            <h3 class="article-title">Common Gutter Installation Mistakes and How to Avoid Them</h3>
+                            <div class="article-meta">
+                                <span class="article-date">November 13, 2025</span>
+                                <span class="article-author">Svetlana L.</span>
+                            </div>
+                            <p class="article-excerpt">When it comes to replacing your gutters, proper installation is just as important as choosing the right gutter style or material. Even the most durable or high-end replacement gutters can fail to perform if they're not installed correctly. From…</p>
+                            <a href="#" class="article-link">Read more</a>
+                        </div>
                     </article>
 
                     <article class="article-card">
-                        <div class="article-category">Gutters, Home Exterior</div>
-                        <h3 class="article-title">5 Bathroom Renovation Ideas & Tips for Empty Nesters</h3>
-                        <div class="article-meta">
-                            <span class="article-date">November 13, 2025</span>
-                            <span class="article-author">Svetlana L.</span>
+                        <div class="article-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/07/bibleverse-images-8.webp" alt="Gutter Maintenance">
                         </div>
-                        <p class="article-excerpt">So the kids are now out of the house and your nest is officially an empty nest. What now? With the many years of hard work you put into raising your family, you finally have the time to focus on…</p>
-                        <a href="#" class="article-link">Read more</a>
+                        <div class="article-content">
+                            <div class="article-category">Gutter Replacement Quote</div>
+                            <h3 class="article-title">Gutter Maintenance: 5 Steps to Keep Your Gutters Working Properly</h3>
+                            <div class="article-meta">
+                                <span class="article-date">November 12, 2025</span>
+                                <span class="article-author">Svetlana L.</span>
+                            </div>
+                            <p class="article-excerpt">If you've installed new gutters for your home, you've already taken a smart step toward protecting your property from water damage. Still, even the most durable gutters need regular maintenance to stay clean, functional, and free-flowing. Below, we break down…</p>
+                            <a href="#" class="article-link">Read more</a>
+                        </div>
                     </article>
 
                     <article class="article-card">
-                        <div class="article-category">Gutters, Home Exterior</div>
-                        <h3 class="article-title">9 Master Bathroom Ideas for a Timeless & Trendy Transformation</h3>
-                        <div class="article-meta">
-                            <span class="article-date">November 12, 2025</span>
-                            <span class="article-author">Svetlana L.</span>
+                        <div class="article-image">
+                            <img src="https://homezies.com/wp-content/uploads/2024/08/gutters-hero.jpg" alt="Gutter Types">
                         </div>
-                        <p class="article-excerpt">When it comes to bathroom remodeling, one space always takes the spotlight—the master bathroom. It's where you begin your mornings, unwind after long days, and recharge in private comfort. If you're preparing for a master bath remodel, this guide walks…</p>
-                        <a href="#" class="article-link">Read more</a>
+                        <div class="article-content">
+                            <div class="article-category">Gutter Replacement Quote</div>
+                            <h3 class="article-title">7 Gutter Types for Maximizing Water Management & Enhancing Curb Appeal</h3>
+                            <div class="article-meta">
+                                <span class="article-date">November 11, 2025</span>
+                                <span class="article-author">Svetlana L.</span>
+                            </div>
+                            <p class="article-excerpt">Choosing the right gutter type can transform your home—both functionally and aesthetically. The best gutter systems don't just protect your foundation and prevent water damage; they also enhance your home's appearance, improve property value, and provide peace of mind…</p>
+                            <a href="#" class="article-link">Read more</a>
+                        </div>
                     </article>
 
                     <article class="article-card">
-                        <div class="article-category">Gutters, Home Exterior</div>
-                        <h3 class="article-title">Choosing the Right Materials for Your Bathroom Renovation</h3>
-                        <div class="article-meta">
-                            <span class="article-date">November 11, 2025</span>
-                            <span class="article-author">Svetlana L.</span>
+                        <div class="article-image">
+                            <img src="https://homezies.com/wp-content/uploads/2025/07/gutter-guard-ipswich-2434467_640.jpg" alt="Gutter Overflow">
                         </div>
-                        <p class="article-excerpt">A bathroom remodel is one of the most rewarding home upgrades you can make. Whether you're updating an outdated master bath or planning a small guest bathroom renovation, choosing the right materials determines both the look and long-term durability of…</p>
-                        <a href="#" class="article-link">Read more</a>
+                        <div class="article-content">
+                            <div class="article-category">Gutter Replacement Quote</div>
+                            <h3 class="article-title">3 Causes of Gutter Overflow—How to Prevent Gutter Overflow and Water Damage</h3>
+                            <div class="article-meta">
+                                <span class="article-date">November 10, 2025</span>
+                                <span class="article-author">Svetlana L.</span>
+                            </div>
+                            <p class="article-excerpt">Seeing water overflowing from your gutters during a rainstorm might seem like a minor issue — but gutter overflow is a sign of problems that can cause serious damage to your home. If left unchecked, this issue can damage your foundation, promote basement flooding, and even…</p>
+                            <a href="#" class="article-link">Read more</a>
+                        </div>
                     </article>
                 </div>
 
